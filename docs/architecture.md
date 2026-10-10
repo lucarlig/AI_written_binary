@@ -53,4 +53,4 @@ For any future GPU work, record native device architecture and driver compatibil
 
 For NVIDIA targets, require on-target loading without off-target re-finalization of instructions. NVIDIA's binary compatibility guarantees do not cover manually generated or modified binaries; validate the exact device and driver rather than assuming compatibility. These distinctions are documented in the same [CUDA platform reference](https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/cuda-platform.html#binary-compatibility).
 
-No target or example is selected in this scaffold.
+The selected research direction is GEMM for LLM inference on NVIDIA Vera Rubin. Follow the [initial plan](gemm-inference-plan.md) before creating an implementation. The numerical contract and access to the target hardware remain unverified.

@@ -21,4 +21,6 @@ Read [AGENTS.md](AGENTS.md), then the [architecture](docs/architecture.md) and [
 
 ## Status
 
-Repository structure and specifications only. No examples, implementations, or benchmark results are included yet. GEMM on NVIDIA Vera Rubin is a possible future direction; the workload and exact hardware target remain open.
+Current direction: GEMM for LLM inference on NVIDIA Vera Rubin. Read the [initial plan and feasibility findings](docs/gemm-inference-plan.md).
+
+No examples, implementations, or benchmark results are included yet. The first numerical contract, native binary loading path, and Rubin hardware access still need verification.

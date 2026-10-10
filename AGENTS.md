@@ -4,7 +4,7 @@
 
 Investigate whether native binaries authored directly by agents can improve measured performance. Preserve correctness and reproducibility. A negative result is useful evidence.
 
-No workload is selected yet. Do not add examples or commit to a hardware target without a user request. GEMM on NVIDIA Vera Rubin is a possible direction, not a confirmed specification.
+Current direction: GEMM for LLM inference on Rubin GPUs in the NVIDIA Vera Rubin platform. Follow [docs/gemm-inference-plan.md](docs/gemm-inference-plan.md). The exact numerical contract, native encoding/loading path, and access to Rubin hardware remain unverified. Do not add unrelated examples.
 
 ## Direct binary rule
 
